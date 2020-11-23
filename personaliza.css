@@ -1,0 +1,53 @@
+html body{
+    margin:2rem;
+    height: 99%;
+    background-color: black;
+    color: aliceblue;
+}
+.contenedor{
+	max-width: 100rem;
+	margin: 0 1.rem 0 1rem;
+}
+.menu{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    clear: both;
+}
+.menu li{
+    height:auto;
+    display: inline-block;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-family:monospace;
+    font-size: 1.53rem;
+    text-decoration: none;
+    float: left;
+    padding: 1rem 70px;
+    background-color: teal;
+    color: white;
+    opacity: 0.8;
+    height: 100%;
+    
+}
+.menu li a:hover{
+    background-color: gray;
+    padding-bottom: 1rem;
+}
+.contenido .contenedor{
+    font-family: cursive;
+}
+.contenido{
+    font-size: 1.2rem;
+    text-align: justify;   
+}
+img{
+    display: block;
+    margin: auto;
+    height: 20rem;
+    width: 40rem;
+}
